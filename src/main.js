@@ -5,6 +5,8 @@ const gta = new Gta({
   baidu: '417fa9fc2be153b1bec6de7b39208722'
 })
 
+gta.setUser('userId')
+
 gta.event({
   page: 'page',
   action: 'action',
